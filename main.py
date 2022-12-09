@@ -3,7 +3,6 @@ import discord
 from discord.ext import commands
 
 
-token = os.environ['token']
 client = commands.Bot(command_prefix=".",  status=discord.Status.idle, activity = discord.Activity(type=discord.ActivityType.watching, name=";)"), intents=discord.Intents.all())
 
 @client.event
